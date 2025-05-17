@@ -1,5 +1,10 @@
 fastapi==0.110.0
 uvicorn[standard]
+python-multipart   
 pillow
-torch==2.7.0+cu118     --extra-index-url https://download.pytorch.org/whl/cu118
-torchvision==0.22.0+cu118  --extra-index-url https://download.pytorch.org/whl/cu118
+#torch==2.7.0+cu118    --extra-index-url https://download.pytorch.org/whl/cu118
+#torchvision==0.22.0+cu118  --extra-index-url https://download.pytorch.org/whl/cu118
+
+# CPU wheels (work on Render free tier)
+torch==2.7.0
+torchvision==0.22.0
