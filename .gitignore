@@ -1,0 +1,13 @@
+# Python / env
+venv/
+__pycache__/
+
+# Large artefacts
+models/
+data/
+
+# OS / IDE
+.DS_Store
+*.log
+.vscode/
+.idea/

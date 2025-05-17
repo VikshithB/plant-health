@@ -1,0 +1,8 @@
+torch>=2.3.0           # PyTorch (CUDA will install automatically if a GPU build is available)
+torchvision>=0.18.0    # pretrained ResNet50 + transforms
+torchaudio>=2.3.0      # satisfies torch dependency bundle
+opencv-python          # reading & augmenting images
+pandas
+scikit-learn
+matplotlib
+tqdm
