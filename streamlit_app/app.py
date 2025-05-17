@@ -4,7 +4,9 @@ import streamlit as st
 from PIL import Image
 import matplotlib.pyplot as plt
 
-FASTAPI_URL = "http://localhost:8000/predict"   # same machine
+FASTAPI_URL = "https://plant-health-api.onrender.com/predict"
+
+# FASTAPI_URL = "http://localhost:8000/predict"   # same machine
 TOPK = 3
 
 st.set_page_config(page_title="Plant Disease Detector",
